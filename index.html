@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Crown (Australia) — Luxury Crown Jewelry from Australia</title>
+  <meta name="description"
+    content="Discover Crown (Australia) — handcrafted jewelry inspired by royal elegance and Australian heritage. Sustainable materials, opals, gold, and timeless design." />
+  <meta name="keywords"
+    content="Crown Australia, luxury jewelry, Australian opal, handcrafted jewelry, royal design, sustainable jewelry, gold, silver, diamonds" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Crown (Australia) — Luxury Crown Jewelry from Australia" />
+  <meta property="og:description"
+    content="Regal-inspired handcrafted jewelry from Australia. Crown quality, timeless design." />
+  <meta property="og:image" content="https://example.com/public/images/og/homePage.webP">
+
+  <link rel="icon" type="image/svg+xml" href="/public/favicon.svg?v=2">
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+
+  <div id="site-header"></div>
+
+  <main id="top" class="page">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero__inner">
+        <div class="hero__copy reveal">
+          <h1 id="heroTitle" class="hero__title">Timeless Royal<br>Elegance from<br>Australia</h1>
+          <p class="hero__lead">Luxury Crown Jewelry celebrates Australia’s royal heritage with handcrafted, sustainable
+            pieces designed to last for generations.</p>
+          <div class="hero__cta">
+            <a class="btn btn--solid" href="./#catalog">View Collection</a>
+            <a class="btn btn--outline" href="./#order">Make a order</a>
+          </div>
+        </div>
+
+        <figure class="hero__media reveal">
+          <div class="hero__frame">
+            <svg class="hero-portrait" viewBox="0 0 960 1280" role="img" aria-label="Model wearing Crown jewelry">
+              <defs>
+                <clipPath id="portraitMask" clipPathUnits="objectBoundingBox">
+                  <rect x="0" y="0" width="1" height="1" rx=".04" ry=".04" />
+                </clipPath>
+                <filter id="innerShadow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feOffset dx="0" dy="2" />
+                  <feGaussianBlur stdDeviation="14" result="b" />
+                  <feComposite in="SourceAlpha" in2="b" operator="arithmetic" k2="-1" k3="1" result="inner" />
+                  <feColorMatrix in="inner" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .50 0" />
+                  <feBlend in="SourceGraphic" mode="normal" />
+                </filter>
+              </defs>
+              <rect x="0" y="0" width="960" height="1280" fill="var(--teal)" />
+              <g clip-path="url(#portraitMask)" filter="url(#innerShadow)">
+                <image href="./public/images/about-media.webP" x="0" y="0" width="960" height="1280"
+                  preserveAspectRatio="xMidYMid slice" />
+              </g>
+            </svg>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section id="catalog" class="catalog catalog--clean" aria-labelledby="catalogTitle">
+      <div class="catalog__inner">
+        <header class="catalog__head catalog__head--row">
+          <div>
+            <h2 id="catalogTitle" class="catalog__title">Our Craft</h2>
+            <p class="catalog__sub">Handcrafted in small batches. Timeless and subtle.</p>
+          </div>
+          <div class="catalog__controls">
+            <button class="cat-btn cat-btn--prev" aria-label="Previous" data-slide="prev">‹</button>
+            <button class="cat-btn cat-btn--next" aria-label="Next" data-slide="next">›</button>
+          </div>
+        </header>
+
+        <div class="catalog__viewport" aria-roledescription="carousel">
+          <div class="catalog__track">
+            <article class="item" data-title="Solitaire Ring" data-price="£1,250"
+              data-gallery="./public/images/jewellery/SolitaireRing/SolitaireRing1.webP|./public/images/jewellery/SolitaireRing/SolitaireRing2.webP|./public/images/jewellery/SolitaireRing/SolitaireRing3.webP"
+              data-img="./public/images/jewellery/SolitaireRing/SolitaireRing1.webP" data-link="./product-ring.html"
+              data-desc="Classic round brilliant solitaire with a slim band for maximum sparkle. Low-profile, stackable, everyday-friendly. 18k white gold; lifetime polishing included.">
+              <div class="item__media">
+                <img src="./public/images/jewellery/SolitaireRing/SolitaireRing1.webP" alt="Solitaire Ring">
+              </div>
+              <div class="item__foot">
+                <h3 class="item__title">Solitaire Ring</h3>
+                <div class="item__meta">
+                  <span class="item__price">£1,250</span>
+                  <div class="item__actions"><button type="button" class="quick js-quick">Quick View</button></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="item" data-title="Teardrop Earrings" data-price="£420"
+              data-gallery="./public/images/jewellery/TeardropEarrings/TeardropEarrings1.webP|./public/images/jewellery/TeardropEarrings/TeardropEarrings2.webP|./public/images/jewellery/TeardropEarrings/TeardropEarrings3.webP"
+              data-img="./public/images/jewellery/TeardropEarrings/TeardropEarrings1.webP"
+              data-link="./product-earrings.html"
+              data-desc="Minimal teardrop earrings with a glossy enamel finish. Sterling silver with secure lever-backs. Lightweight — perfect for all-day wear.">
+              <div class="item__media">
+                <img src="./public/images/jewellery/TeardropEarrings/TeardropEarrings1.webP" alt="Teardrop Earrings">
+              </div>
+              <div class="item__foot">
+                <h3 class="item__title">Teardrop Earrings</h3>
+                <div class="item__meta">
+                  <span class="item__price">£420</span>
+                  <div class="item__actions"><button type="button" class="quick js-quick">Quick View</button></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="item" data-title="Fine Link Bracelet" data-price="£380"
+              data-gallery="./public/images/jewellery/ShineBracelet/ShineBracelet1.webP|./public/images/jewellery/ShineBracelet/ShineBracelet2.webP|./public/images/jewellery/ShineBracelet/ShineBracelet3.webP"
+              data-img="./public/images/jewellery/ShineBracelet/ShineBracelet1.webP" data-link="./product-bracelet.html"
+              data-desc="Refined round-link chain bracelet in sterling silver. Smooth edges and silky drape — pairs beautifully with a watch or stacking set.">
+              <div class="item__media">
+                <img src="./public/images/jewellery/ShineBracelet/ShineBracelet1.webP" alt="Fine Link Bracelet">
+              </div>
+              <div class="item__foot">
+                <h3 class="item__title">Fine Link Bracelet</h3>
+                <div class="item__meta">
+                  <span class="item__price">£380</span>
+                  <div class="item__actions"><button type="button" class="quick js-quick">Quick View</button></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="item" data-title="Silver Disc Pendant" data-price="£310"
+              data-gallery="./public/images/jewellery/ShinePendant/ShinePendant1.webP|./public/images/jewellery/ShinePendant/ShinePendant2.webP|./public/images/jewellery/ShinePendant/ShinePendant3.webP"
+              data-img="./public/images/jewellery/ShinePendant/ShinePendant1.webP" data-link="./product-pendant.html"
+              data-desc="Timeless sterling-silver disc with a satin dome and bright-cut rim. Elegant alone or layered with a short choker.">
+              <div class="item__media">
+                <img src="./public/images/jewellery/ShinePendant/ShinePendant1.webP" alt="Silver Disc Pendant">
+              </div>
+              <div class="item__foot">
+                <h3 class="item__title">Silver Disc Pendant</h3>
+                <div class="item__meta">
+                  <span class="item__price">£310</span>
+                  <div class="item__actions"><button type="button" class="quick js-quick">Quick View</button></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="item" data-title="Green Enamel Bracelet" data-price="£290"
+              data-gallery="./public/images/jewellery/GreenBracelet/GreenBracelet1.webP|./public/images/jewellery/GreenBracelet/GreenBracelet2.webP|./public/images/jewellery/GreenBracelet/GreenBracelet3.webP"
+              data-img="./public/images/jewellery/GreenBracelet/GreenBracelet1.webP" data-link="./product-bracelet.html"
+              data-desc="Jade-green enamel charm bracelet on a fine silver chain. Hand-fired enamel for lasting color. Stack-ready, feather-light.">
+              <div class="item__media">
+                <img src="./public/images/jewellery/GreenBracelet/GreenBracelet1.webP" alt="Green Enamel Bracelet">
+              </div>
+              <div class="item__foot">
+                <h3 class="item__title">Green Enamel Bracelet</h3>
+                <div class="item__meta">
+                  <span class="item__price">£290</span>
+                  <div class="item__actions"><button type="button" class="quick js-quick">Quick View</button></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="item" data-title="Blue Enamel Pendant" data-price="£360"
+              data-gallery="./public/images/jewellery/BluePendant/BluePendant1.webP|./public/images/jewellery/BluePendant/BluePendant2.webP|./public/images/jewellery/BluePendant/BluePendant3.webP"
+              data-img="./public/images/jewellery/BluePendant/BluePendant1.webP" data-link="./product-pendant.html"
+              data-desc="Ocean-blue enamel dome with a polished rim. Comfortable 45 cm chain — designed to layer or shine solo.">
+              <div class="item__media">
+                <img src="./public/images/jewellery/BluePendant/BluePendant1.webP" alt="Blue Enamel Pendant">
+              </div>
+              <div class="item__foot">
+                <h3 class="item__title">Blue Enamel Pendant</h3>
+                <div class="item__meta">
+                  <span class="item__price">£360</span>
+                  <div class="item__actions"><button type="button" class="quick js-quick">Quick View</button></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="item" data-title="Deep Green Pendant" data-price="£1,380"
+              data-gallery="./public/images/jewellery/GreenSinglePendant/GreenSinglePendant1.webP|./public/images/jewellery/GreenSinglePendant/GreenSinglePendant2.webP|./public/images/jewellery/GreenSinglePendant/GreenSinglePendant3.webP"
+              data-img="./public/images/jewellery/GreenSinglePendant/GreenSinglePendant1.webP"
+              data-link="./product-pendant.html"
+              data-desc="Deep-green enamel pendant inspired by coastal eucalyptus. Silver bezel with glass-smooth finish. Gift-boxed.">
+              <div class="item__media">
+                <img src="./public/images/jewellery/GreenSinglePendant/GreenSinglePendant1.webP"
+                  alt="Deep Green Pendant">
+              </div>
+              <div class="item__foot">
+                <h3 class="item__title">Deep Green Pendant</h3>
+                <div class="item__meta">
+                  <span class="item__price">£1,380</span>
+                  <div class="item__actions"><button type="button" class="quick js-quick">Quick View</button></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="item" data-title="Silver Coin Pendant" data-price="£330"
+              data-gallery="./public/images/jewellery/GreenPendant/GreenPendant1.webP|./public/images/jewellery/GreenPendant/GreenPendant2.webP|./public/images/jewellery/GreenPendant/GreenPendant3.webP"
+              data-img="./public/images/jewellery/GreenPendant/GreenPendant1.webP" data-link="./product-pendant.html"
+              data-desc="Sterling-silver coin pendant with a soft satin finish. Minimalist, modern and easy to wear every day.">
+              <div class="item__media">
+                <img src="./public/images/jewellery/GreenPendant/GreenPendant1.webP" alt="Silver Coin Pendant">
+              </div>
+              <div class="item__foot">
+                <h3 class="item__title">Silver Coin Pendant</h3>
+                <div class="item__meta">
+                  <span class="item__price">£330</span>
+                  <div class="item__actions"><button type="button" class="quick js-quick">Quick View</button></div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <dialog class="qv" id="qv" aria-labelledby="qvTitle" aria-describedby="qvDesc">
+        <button class="qv__close" aria-label="Close">✕</button>
+
+        <div class="qv__media">
+          <div class="qv__stage" id="qvStage">
+            <img id="qvImg" alt="" loading="lazy">
+          </div>
+          <ul class="qv__thumbs" id="qvThumbs"></ul>
+        </div>
+
+        <div class="qv__body">
+          <header class="qv__head">
+            <h3 class="qv__title" id="qvTitle"></h3>
+            <span class="qv__price" id="qvPrice"></span>
+          </header>
+
+          <p class="qv__desc" id="qvDesc"></p>
+
+          <dl class="qv__specs">
+            <div class="qv__spec">
+              <dt>Materials</dt>
+              <dd id="qvMaterials"></dd>
+            </div>
+            <div class="qv__spec">
+              <dt>Finish</dt>
+              <dd id="qvFinish"></dd>
+            </div>
+            <div class="qv__spec">
+              <dt>Size / Length</dt>
+              <dd id="qvSize"></dd>
+            </div>
+            <div class="qv__spec">
+              <dt>Stone</dt>
+              <dd id="qvStone"></dd>
+            </div>
+          </dl>
+
+          <ul class="qv__highlights" id="qvHighlights"></ul>
+
+          <div class="qv__notes">
+            <p><strong>Care & Warranty:</strong> Complimentary lifetime polishing and tightening.</p>
+            <p><strong>Shipping:</strong> Insured worldwide delivery. Free resizing within 60 days.</p>
+          </div>
+
+          <div class="qv__cta">
+            <a class="btn btn--solid" id="qvOrderBtn" href="./#order">Make a order</a>
+            <a class="btn btn--outline" href="./#order">Contact Us</a>
+          </div>
+        </div>
+      </dialog>
+    </section>
+
+    <section id="about" class="about about--elevated" aria-labelledby="aboutTitle">
+      <div class="about__inner">
+        <div class="about__content">
+          <h2 id="aboutTitle" class="about__title">The Inspiration Behind <span>Crown (Australia)</span></h2>
+          <p class="about__lead">Our <strong>Crown (Australia)</strong> line blends royal motifs with the calm light of
+            Australia’s coast. Each piece is handcrafted in small batches using recycled metals and ethically sourced
+            stones.</p>
+
+          <ul class="about__list">
+            <li>Handcrafted in Australia</li>
+            <li>Recycled gold & sterling silver</li>
+            <li>Conflict-free stones</li>
+            <li>Lifetime care & polishing</li>
+          </ul>
+
+          <div class="about__chips" aria-label="Key facts">
+            <div class="chip"><span class="chip__num">12+</span><span class="chip__label">years of craft</span></div>
+            <div class="chip"><span class="chip__num">100%</span><span class="chip__label">recycled metals</span></div>
+            <div class="chip"><span class="chip__num">3–4 wks</span><span class="chip__label">made to order</span></div>
+          </div>
+        </div>
+
+        <figure class="about__media">
+          <img class="about__img" src="./public/images/hero.webP"
+            alt="Crown jeweler setting an opal into a silver bezel under warm studio light">
+          <svg class="about__crest" viewBox="0 0 36 20" aria-hidden="true">
+            <path d="M2 18h32L27 4l-5 5-4-8-4 8-5-5-7 14z" fill="url(#g)" />
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#F9E4A4" />
+                <stop offset=".55" stop-color="#D2A552" />
+                <stop offset="1" stop-color="#9A6A2E" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </figure>
+      </div>
+    </section>
+
+    <section id="materials" class="materials materials--signature" aria-labelledby="materialsTitle">
+      <div class="materials__inner">
+        <header class="materials__head">
+          <h2 id="materialsTitle" class="section__title">Materials & Craft</h2>
+        </header>
+
+        <div class="mat-grid">
+          <article class="mat">
+            <div class="mat__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 3c3.5 4.8 6 8 6 11a6 6 0 1 1-12 0c0-3 2.5-6.2 6-11z" />
+              </svg>
+            </div>
+            <div class="mat__body">
+              <h3 class="mat__title">Recycled Gold</h3>
+              <p class="mat__text">14k & 18k, reclaimed and refined in Australia.</p>
+            </div>
+          </article>
+
+          <article class="mat">
+            <div class="mat__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <rect x="3" y="8" width="18" height="8" rx="3" />
+              </svg>
+            </div>
+            <div class="mat__body">
+              <h3 class="mat__title">Sterling Silver</h3>
+              <p class="mat__text">925 silver with anti-tarnish finish.</p>
+            </div>
+          </article>
+
+          <article class="mat">
+            <div class="mat__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <ellipse cx="12" cy="12" rx="8" ry="5" />
+              </svg>
+            </div>
+            <div class="mat__body">
+              <h3 class="mat__title">Australian Opal</h3>
+              <p class="mat__text">Local mines, hand-cut cabochons.</p>
+            </div>
+          </article>
+
+          <article class="mat">
+            <div class="mat__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M3 8l4-4h10l4 4-9 12L3 8z" />
+              </svg>
+            </div>
+            <div class="mat__body">
+              <h3 class="mat__title">White Diamonds</h3>
+              <p class="mat__text">Conflict-free, G–H color, VS clarity.</p>
+            </div>
+          </article>
+
+          <article class="mat">
+            <div class="mat__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M7 7h10l3 5-3 5H7L4 12l3-5z" />
+              </svg>
+            </div>
+            <div class="mat__body">
+              <h3 class="mat__title">Emerald & Jade</h3>
+              <p class="mat__text">Traceable supply, polished glow.</p>
+            </div>
+          </article>
+
+          <article class="mat">
+            <div class="mat__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M4 16c2 0 3-1 4-3l9-9 2 2-9 9c-2 1-3 2-3 4 0 2-3 3-3 1z" />
+              </svg>
+            </div>
+            <div class="mat__body">
+              <h3 class="mat__title">Enamel Details</h3>
+              <p class="mat__text">Heat-fused color accents for a regal touch.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="reviews reviews--signature" aria-labelledby="reviewsTitle">
+      <div class="reviews__inner">
+        <header class="reviews__head">
+          <h2 id="reviewsTitle" class="section__title">What Clients Say</h2>
+        </header>
+
+        <div class="rev-grid">
+          <figure class="rev">
+            <img class="rev__photo" src="./public/images/users/user-1.webP" alt="Amelia R. portrait" width="72"
+              height="72" loading="lazy">
+            <blockquote class="rev__quote">“My Crown pendant is stunning — light, elegant, and deeply Australian.”
+            </blockquote>
+            <figcaption class="rev__meta">
+              <span class="rev__name">Amelia R.</span>
+              <span class="rev__stars" aria-label="5 out of 5">★★★★★</span>
+            </figcaption>
+          </figure>
+
+          <figure class="rev">
+            <img class="rev__photo" src="./public/images/users/user-2.png" alt="Harper L. portrait" width="72"
+              height="72" loading="lazy">
+            <blockquote class="rev__quote">“Ethical materials and superb finishing. It became our family keepsake.”
+            </blockquote>
+            <figcaption class="rev__meta">
+              <span class="rev__name">Harper L.</span>
+              <span class="rev__stars" aria-label="5 out of 5">★★★★★</span>
+            </figcaption>
+          </figure>
+
+          <figure class="rev">
+            <img class="rev__photo" src="./public/images/users/user-3.jpeg" alt="Oliver T. portrait" width="72"
+              height="72" loading="lazy">
+            <blockquote class="rev__quote">“The solitaire ring looks royal. Service and packaging are immaculate.”
+            </blockquote>
+            <figcaption class="rev__meta">
+              <span class="rev__name">Oliver T.</span>
+              <span class="rev__stars" aria-label="5 out of 5">★★★★★</span>
+            </figcaption>
+          </figure>
+
+          <figure class="rev">
+            <img class="rev__photo" src="./public/images/users/user-4.webP" alt="Sophia M. portrait" width="72"
+              height="72" loading="lazy">
+            <blockquote class="rev__quote">“Refined, timeless and responsibly made. I love wearing it every day.”
+            </blockquote>
+            <figcaption class="rev__meta">
+              <span class="rev__name">Sophia M.</span>
+              <span class="rev__stars" aria-label="5 out of 5">★★★★★</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="order" class="order order--signature" aria-labelledby="orderTitle">
+      <div class="order__inner">
+        <div class="order__copy">
+          <h2 id="orderTitle" class="section__title">Order Your Crown Piece</h2>
+          <p class="section__lead">Tell us what you love and we’ll craft it to perfection.</p>
+          <ul class="order__bullets">
+            <li>2–3 weeks for most items</li>
+            <li>Free resizing within 60 days</li>
+            <li>Worldwide insured shipping</li>
+          </ul>
+        </div>
+
+        <form class="form form--card" id="orderForm" novalidate>
+          <div class="form__grid">
+            <label class="fld">
+              <input class="fld__control" type="text" name="name" id="name" placeholder=" " required>
+              <span class="fld__label">Full name</span>
+              <span class="fld__hint" aria-live="polite"></span>
+            </label>
+
+            <label class="fld">
+              <input class="fld__control" type="email" name="email" id="email" placeholder=" " required>
+              <span class="fld__label">Email</span>
+              <span class="fld__hint" aria-live="polite"></span>
+            </label>
+
+            <label class="fld fld--select">
+              <select class="fld__control" name="product" id="product" required>
+                <option value="" hidden selected>Select…</option>
+                <option>Solitaire ring</option>
+                <option>Earrings</option>
+                <option>Bracelet</option>
+                <option>Pendant</option>
+              </select>
+              <span class="fld__label">Interest</span>
+              <span class="fld__hint" aria-live="polite"></span>
+            </label>
+
+            <label class="fld fld--full">
+              <textarea class="fld__control" name="message" id="message" rows="4" placeholder=" "></textarea>
+              <span class="fld__label">Size, material, deadline…</span>
+              <span class="fld__hint" aria-live="polite"></span>
+            </label>
+
+            <div class="consent fld--full">
+              <label class="chk">
+                <input type="checkbox" id="consent" required>
+                <span>I agree to the <a href="./terms.html">Terms</a> and <a href="./privacy.html">Privacy
+                    Policy</a>.</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form__actions">
+            <button type="submit" class="btn btn--primary btn--lg">Place Request</button>
+            <p class="form__state" id="formState" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <div id="cookie-root"></div>
+  <script src="./js/cookies.js" defer></script>
+  <script src="./js/nav.js"></script>
+  <script type="module" src="./js/dynamic-loader.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
