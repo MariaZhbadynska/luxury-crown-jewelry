@@ -1411,7 +1411,7 @@ body.nav-lock{
     background:
       radial-gradient(140% 90% at 80% 10%, rgba(255, 255, 255, .18), transparent 48%),
       radial-gradient(120% 80% at 0% 100%, rgba(0, 0, 0, .06), transparent 50%),
-      url('../public/images/about-media.webP') center/cover no-repeat, var(--teal)
+      url('../public/images/about-media.webp') center/cover no-repeat, var(--teal)
   }
 
   .hero__inner {
